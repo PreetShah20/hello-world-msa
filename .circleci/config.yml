@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 jobs:
  one:
   docker:
@@ -21,7 +21,7 @@ jobs:
      - run: echo "A more Familiar HI"
      - run: sleep 15
 workflows:
- version: 2
+ version: 2.1
   one_and_two:
    jobs:
     - one
